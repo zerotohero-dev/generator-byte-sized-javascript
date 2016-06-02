@@ -16,11 +16,6 @@
 
 <%- readmeExtras %>
 
-## Contact Information
-
-* **Project Owner**: [<%= userName %>](<%= userWebsite %>)
-* **Project Website**: <<%= projectWebsite %>>
-
 ## License
 
 MIT © [<%= userName %>](<%= projectWebsite %>). 

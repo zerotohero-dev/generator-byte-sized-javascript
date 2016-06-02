@@ -52,7 +52,7 @@ It is a compilation of short (*more or less five minutes long*) bi-weekly screen
 ## Contact Information
 
 * **Project Owner**: [Volkan Özçelik](https://volkan.io/)
-* **Project Website**: <https://github.com/bitesized/generator-byte-sized-javascript>
+* **Project Website**: <https://bit.ly/bytesized>
 
 ## License
 
