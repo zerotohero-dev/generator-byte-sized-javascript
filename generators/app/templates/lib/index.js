@@ -1,0 +1,5 @@
+/*
+<%- srcBanner %>
+ *
+<%- srcHeader %>
+ */

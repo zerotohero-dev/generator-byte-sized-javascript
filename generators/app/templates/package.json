@@ -1,0 +1,25 @@
+{
+  "name": "<%= appName %>",
+  "version": "0.0.1",
+  "description": "<%= appDescription %>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsbites/<%= appName %>.git"
+  },
+  "keywords": [
+  ],
+  "author": "Volkan Öçelik",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jsbites/<%= appName %>/issues"
+  },
+  "homepage": "https://github.com/jsbites/<%= appName %>#readme",
+  "dependencies": {
+  },
+  "devDependencies": {
+  }
+}
