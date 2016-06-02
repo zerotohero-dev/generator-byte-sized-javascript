@@ -1,6 +1,6 @@
 {
   "name": "generator-byte-sized-javascript",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Git project template for “Byte-Sized JavaScript” projects.",
   "homepage": "https://bit.ly/bytesized",
   "author": {
@@ -51,7 +51,10 @@
       "mocha": true
     }
   },
-  "repository": "jsbites/generator-byte-sized-javascript",
+  "repository": {
+      "type": "git",
+      "url": "git://github.com/jsbites/generator-byte-sized-javascript.git"
+  },
   "scripts": {
     "prepublish": "gulp prepublish",
     "test": "gulp"
