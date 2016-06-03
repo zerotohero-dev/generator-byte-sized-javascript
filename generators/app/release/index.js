@@ -150,7 +150,7 @@ module.exports = _yeomanGenerator2.default.Base.extend({
             _this2.props.srcHeader = values[1].srcHeader;
             _this2.props.readmeExtras = values[2].readmeExtras;
 
-            ['lib/index.js', 'test/index.js', '.babelrc', '.eslintrc', '.gitignore', 'CHANGELOG.md', 'CODE_OF_CONDUCT.md', 'index.js', 'LICENSE.md', 'package.json', 'README.md'].map(function (file) {
+            ['lib/index.js', 'test/index.js', '.babelrc', '.editorconfig', '.eslintrc', '.gitignore', 'CHANGELOG.md', 'CODE_OF_CONDUCT.md', 'index.js', 'LICENSE.md', 'package.json', 'README.md'].map(function (file) {
                 return _this2.fs.copyTpl(_this2.templatePath(file), _this2.destinationPath(file), _this2.props);
             });
         });

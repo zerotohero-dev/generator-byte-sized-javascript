@@ -138,6 +138,7 @@ module.exports = yeoman.Base.extend( {
                     'lib/index.js',
                     'test/index.js',
                     '.babelrc',
+                    '.editorconfig',
                     '.eslintrc',
                     '.gitignore',
                     'CHANGELOG.md',
