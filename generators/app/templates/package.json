@@ -12,7 +12,7 @@
   },
   "keywords": [
   ],
-  "author": "Volkan Öçelik",
+  "author": "<%= userName %>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/jsbites/<%= appName %>/issues"
