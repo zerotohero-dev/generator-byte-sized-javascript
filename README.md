@@ -29,6 +29,13 @@ Then generate your new project:
 yo byte-sized-javascript
 ```
 
+## See Also
+
+Here are the [Byte-Sized JavaScript Bi-Weekly VideoCast](https://bit.ly/bytesized) screencasts that mention this project:
+
+* TODO:// coming soon.
+
+
 ## About This Repository
 
 This repository is a part of [Byte-Sized JavaScript Bi-Weekly VideoCast](https://bit.ly/bytesized).

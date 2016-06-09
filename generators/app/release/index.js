@@ -102,7 +102,12 @@ module.exports = _yeomanGenerator2.default.Base.extend({
         var bannerPathPromise = new Promise(function (resolve, reject) {
             (0, _fs.readFile)(_this2.props.bannerPath, { encoding: 'utf8' }, function (err, data) {
                 if (err) {
-                    reject(err);
+                    console.log('Warning: cannot read from “' + _this2.props.bannerPath + '”.');
+
+                    resolve({
+                        docBanner: '',
+                        srcBanner: ' * '
+                    });
 
                     return;
                 }
@@ -116,7 +121,11 @@ module.exports = _yeomanGenerator2.default.Base.extend({
         var srcHeaderPathPromise = new Promise(function (resolve, reject) {
             (0, _fs.readFile)(_this2.props.srcHeaderPath, { encoding: 'utf8' }, function (err, data) {
                 if (err) {
-                    reject(err);
+                    console.log('Warning: cannot read from “' + _this2.props.srcHeaderPath + '”.');
+
+                    resolve({
+                        srcHeader: ''
+                    });
 
                     return;
                 }
@@ -129,7 +138,11 @@ module.exports = _yeomanGenerator2.default.Base.extend({
         var readmeExtrasPromise = new Promise(function (resolve, reject) {
             (0, _fs.readFile)(_this2.props.readmeExtrasPath, { encoding: 'utf8' }, function (err, data) {
                 if (err) {
-                    reject(err);
+                    console.log('Warning: cannot read from “' + _this2.props.srcHeaderPath + '”.');
+
+                    resolve({
+                        readmeExtras: ''
+                    });
 
                     return;
                 }
@@ -150,14 +163,15 @@ module.exports = _yeomanGenerator2.default.Base.extend({
             _this2.props.srcHeader = values[1].srcHeader;
             _this2.props.readmeExtras = values[2].readmeExtras;
 
-            ['lib/index.js', 'test/index.js', '.babelrc', '.editorconfig', '.eslintrc', '.gitignore', 'CHANGELOG.md', 'CODE_OF_CONDUCT.md', 'index.js', 'LICENSE.md', 'package.json', 'README.md'].map(function (file) {
+            ['bin/transpile.js', 'lib/index.js', 'test/index.js', '.babelrc', '.editorconfig', '.eslintrc', '.gitignore', 'CHANGELOG.md', 'CODE_OF_CONDUCT.md', 'index.js', 'LICENSE.md', 'package.json', 'README.md'].map(function (file) {
                 return _this2.fs.copyTpl(_this2.templatePath(file), _this2.destinationPath(file), _this2.props);
             });
         });
     },
 
     install: function deploy() {
-        this.installDependencies();
+        //this.installDependencies();
+        this.npmInstall(['eslint', 'eslint-plugin-babel', 'babel-cli', 'babel-eslint', 'babel-preset-es2015', 'babil'], { 'saveDev': true });
     }
 });
 

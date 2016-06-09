@@ -87,8 +87,13 @@ module.exports = yeoman.Base.extend( {
         const bannerPathPromise = new Promise( ( resolve, reject ) => {
             readFile( this.props.bannerPath, { encoding: 'utf8' }, ( err, data ) => {
                 if ( err ) {
-                    reject( err );
-
+                    console.log( `Warning: cannot read from “${this.props.bannerPath}”.` );
+                    
+                    resolve( {
+                        docBanner: '',
+                        srcBanner: ' * '
+                    } );
+ 
                     return;
                 }
 
@@ -101,7 +106,11 @@ module.exports = yeoman.Base.extend( {
         const srcHeaderPathPromise = new Promise( ( resolve, reject ) => {
             readFile( this.props.srcHeaderPath, { encoding: 'utf8' }, ( err, data ) => {
                 if ( err ) {
-                    reject( err );
+                    console.log( `Warning: cannot read from “${this.props.srcHeaderPath}”.` );
+                    
+                    resolve( {
+                        srcHeader: ''
+                    } );
 
                     return;
                 }
@@ -114,7 +123,11 @@ module.exports = yeoman.Base.extend( {
         const readmeExtrasPromise = new Promise( ( resolve, reject ) => {
             readFile( this.props.readmeExtrasPath, { encoding: 'utf8' }, ( err, data ) => {
                 if ( err ) {
-                    reject( err );
+                    console.log( `Warning: cannot read from “${this.props.srcHeaderPath}”.` );
+                    
+                    resolve( {
+                        readmeExtras: ''
+                    } );
 
                     return;
                 }
@@ -135,6 +148,7 @@ module.exports = yeoman.Base.extend( {
                 this.props.readmeExtras = values[ 2 ].readmeExtras;
 
                 [
+                    'bin/transpile.js',
                     'lib/index.js',
                     'test/index.js',
                     '.babelrc',
@@ -156,6 +170,14 @@ module.exports = yeoman.Base.extend( {
     },
 
     install: function deploy() {
-        this.installDependencies();
+        //this.installDependencies();
+        this.npmInstall( [
+            'eslint',
+            'eslint-plugin-babel',
+            'babel-cli',
+            'babel-eslint',
+            'babel-preset-es2015',
+            'babil'
+        ], { 'saveDev': true } );
     }
 } );
