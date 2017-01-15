@@ -9,14 +9,35 @@
  /  /\ : /\  \
 (___)| . |(___)
 ```
+## About This Repository
 
-## Summary
+This repository is a part of the [Byte-Sized JavaScript VideoCasts][vidcast].
 
-A git project template generator for “Byte-Sized JavaScript” projects.
+```
+  _               __
+ |_)   _|_  _ __ (_  o _   _   _|
+ |_) \/ |_ (/_   __) | /_ (/__(_|
+     /        |  _.     _. (_   _ ._ o ._ _|_
+            \_| (_| \/ (_| __) (_ |  | |_) |_
+                                       |
+            »»  bytesized.tv  ««
+```
+
+## Byte-Sized What?!
+
+[Byte-Sized JavaScript][vidcast].
+
+It is a compilation of short (*around ten minutes*) monthly screencasts about **JavaScript** and related technologies.
+
+[vidcast]: https://bytesized.tv/ "ByteSized.TV"
+
+## About This Generator
+
+This generator is a *git project template generator* for “Byte-Sized JavaScript” projects.
 
 ## Installation and Usage
 
-First, install [Yeoman](http://yeoman.io) and generator-byte-sized-javascript using [npm](https://www.npmjs.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).
+First, install [Yeoman](http://yeoman.io) and `generator-byte-sized-javascript` using [npm](https://www.npmjs.com/) (*we assume you have pre-installed [node.js](https://nodejs.org/)*).
 
 ```bash
 npm install -g yo
@@ -28,33 +49,6 @@ Then generate your new project:
 ```bash
 yo byte-sized-javascript
 ```
-
-## See Also
-
-Here are the [Byte-Sized JavaScript Bi-Weekly VideoCast](https://bit.ly/bytesized) screencasts that mention this project:
-
-* TODO:// coming soon.
-
-
-## About This Repository
-
-This repository is a part of [Byte-Sized JavaScript Bi-Weekly VideoCast](https://bit.ly/bytesized).
-
-```
-  _               __
- |_)   _|_  _ __ (_  o _   _   _|
- |_) \/ |_ (/_   __) | /_ (/__(_|
-     /        |  _.     _. (_   _ ._ o ._ _|_
-            \_| (_| \/ (_| __) (_ |  | |_) |_
-                                       |
-            »»  bit.ly/bytesized  ««
-```
-
-## Byte-Sized What?!
-
-[Byte-Sized JavaScript](https://bit.ly/bytesized).
-
-It is a compilation of short (*more or less five minutes long*) bi-weekly screencasts about **JavaScript** and related technologies.
 
 ## Contact Information
 
