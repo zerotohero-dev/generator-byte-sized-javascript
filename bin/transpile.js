@@ -1,7 +1,6 @@
 #!/usr/bin/env node
 
-/*
- *         .°
+/*         .°
  *        |
  *     .-----.
  *     | | | |       Byte-Sized JavaScript
@@ -13,7 +12,7 @@
  *
  * This project is a part of the “Byte-Sized JavaScript” videocast.
  *
- * You can watch “Byte-Sized JavaScript” at: https://bit.ly/bytesized
+ * You can watch “Byte-Sized JavaScript” at: https://bytesized.tv/
  *
  * MIT Licensed — See LICENSE.md
  *
