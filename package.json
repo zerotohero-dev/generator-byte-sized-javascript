@@ -3,11 +3,7 @@
   "version": "0.1.1",
   "description": "Git project template for “Byte-Sized JavaScript” projects.",
   "homepage": "https://bit.ly/bytesized",
-  "author": {
-    "name": "Volkan Ozcelik",
-    "email": "me@volkan.io",
-    "url": "https://volkan.io/"
-  },
+  "author": "Volkan Özçelik <me@volkan.io> (https://volkan.io/)",
   "files": [
     "generators"
   ],

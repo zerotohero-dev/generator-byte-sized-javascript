@@ -4,7 +4,7 @@
     .-----.
     | | | |       Byte-Sized JavaScript
     \  °  /          Module Generator
-  ___-___-___   https://bit.ly/bytesized
+  ___-___-___     https://bytesized.tv/
  ()_   .   _()
  /  /\ : /\  \
 (___)| . |(___)
@@ -53,17 +53,17 @@ yo byte-sized-javascript
 ## Contact Information
 
 * **Project Owner**: [Volkan Özçelik](https://volkan.io/)
-* **Project Website**: <https://bit.ly/bytesized>
+* **Project Website**: [bytesized.tv](https://bit.ly/bytesized)
 
 ## License
 
 MIT © [Volkan Özçelik](https://volkan.io/).
 
-See [the license file](LICENSE.md) for details.
+[See the license file for details](LICENSE.md).
 
 ## Code of Conduct
 
 We, as the community behind this project, are committed to making participation in this project a harassment-free experience for everyone, regardless of the level of expertise, gender, gender identity and expression, sexual orientation, disability, personal appearance, body size, race, ethnicity, age, religion or nationality.
 
-[See the code of conduct](CODE_OF_CONDUCT.md) for more details.
+[See the code of conduct for more details](CODE_OF_CONDUCT.md).
 
