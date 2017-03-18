@@ -1,6 +1,6 @@
 {
   "name": "generator-byte-sized-javascript",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Git project template for “Byte-Sized JavaScript” projects.",
   "homepage": "https://bit.ly/bytesized",
   "author": "Volkan Özçelik <me@volkan.io> (https://volkan.io/)",
@@ -18,8 +18,8 @@
     "yeoman-generator"
   ],
   "dependencies": {
-    "yeoman-generator": "^0.23.0",
     "chalk": "^1.0.0",
+    "yeoman-generator": "^0.23.0",
     "yosay": "^1.0.0"
   },
   "devDependencies": {
@@ -47,10 +47,7 @@
       "mocha": true
     }
   },
-  "repository": {
-      "type": "git",
-      "url": "git://github.com/jsbites/generator-byte-sized-javascript.git"
-  },
+  "repository": "git://github.com/jsbites/generator-byte-sized-javascript.git",
   "scripts": {
     "prepublish": "gulp prepublish",
     "test": "gulp"
