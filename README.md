@@ -1,3 +1,12 @@
+[![tests][tests]][tests-url]
+[![deps][deps]][deps-url]
+
+[tests]: https://img.shields.io/travis/jsbites/generator-byte-sized-javascript.svg
+[tests-url]: https://travis-ci.org/jsbites/generator-byte-sized-javascript
+[deps]: https://david-dm.org/jsbites/generator-byte-sized-javascript.svg
+[deps-url]: https://david-dm.org/jsbites/generator-byte-sized-javascript
+
+
 ```
         .°
        |
