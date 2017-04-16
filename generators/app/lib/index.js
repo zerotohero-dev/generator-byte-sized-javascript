@@ -18,10 +18,10 @@
  * Send your comments, suggestions, and feedback to me@volkan.io
  */
 
-import yeoman from 'yeoman-generator';
-import chalk from 'chalk';
-import yosay from 'yosay';
-import { readFile } from 'fs';
+const yeoman = require( 'yeoman-generator' );
+const chalk = require( 'chalk' );
+const yosay = require( 'yosay' );
+const { readFile } =  require( 'fs' );
 
 module.exports = yeoman.Base.extend( {
     prompting: function prompt() {
@@ -88,12 +88,12 @@ module.exports = yeoman.Base.extend( {
             readFile( this.props.bannerPath, { encoding: 'utf8' }, ( err, data ) => {
                 if ( err ) {
                     console.log( `Warning: cannot read from “${this.props.bannerPath}”.` );
-                    
+
                     resolve( {
                         docBanner: '',
                         srcBanner: ' * '
                     } );
- 
+
                     return;
                 }
 
@@ -107,7 +107,7 @@ module.exports = yeoman.Base.extend( {
             readFile( this.props.srcHeaderPath, { encoding: 'utf8' }, ( err, data ) => {
                 if ( err ) {
                     console.log( `Warning: cannot read from “${this.props.srcHeaderPath}”.` );
-                    
+
                     resolve( {
                         srcHeader: ''
                     } );
@@ -124,7 +124,7 @@ module.exports = yeoman.Base.extend( {
             readFile( this.props.readmeExtrasPath, { encoding: 'utf8' }, ( err, data ) => {
                 if ( err ) {
                     console.log( `Warning: cannot read from “${this.props.srcHeaderPath}”.` );
-                    
+
                     resolve( {
                         readmeExtras: ''
                     } );
