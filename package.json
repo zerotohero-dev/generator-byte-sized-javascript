@@ -15,7 +15,10 @@
     "screencast",
     "tutorial",
     "node.js",
-    "yeoman-generator"
+    "yeoman-generator",
+    "podcast",
+    "screencast",
+    "bytesized.tv"
   ],
   "dependencies": {
     "chalk": "^2.0.1",
