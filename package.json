@@ -1,6 +1,6 @@
 {
   "name": "generator-byte-sized-javascript",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "Git project template for “Byte-Sized JavaScript” projects.",
   "homepage": "https://bytesized.tv/",
   "author": "Volkan Özçelik <me@volkan.io> (https://volkan.io/)",
@@ -9,16 +9,17 @@
   ],
   "main": "generators/index.js",
   "keywords": [
-    "template",
-    "byte-sized",
     "byte-sized javascript",
-    "screencast",
-    "tutorial",
+    "byte-sized",
+    "bytesized.tv",
+    "javascript",
     "node.js",
-    "yeoman-generator",
     "podcast",
     "screencast",
-    "bytesized.tv"
+    "screencast",
+    "template",
+    "tutorial",
+    "yeoman-generator"
   ],
   "dependencies": {
     "chalk": "^2.0.1",
