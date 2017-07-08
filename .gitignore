@@ -22,3 +22,5 @@ coverage
 .DS_Store
 .idea
 .c9
+.vscode
+.history
