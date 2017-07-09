@@ -1,17 +1,16 @@
-/*
- *         .°
+/*         .°
  *        |
  *     .-----.
  *     | | | |       Byte-Sized JavaScript
  *     \  °  /          Module Generator
- *   ___-___-___   https://bit.ly/bytesized
+ *   ___-___-___      https://bytesized.tv/
  *  ()_   .   _()
  *  /  /\ : /\  \
  * (___)| . |(___)
  *
  * This project is a part of the “Byte-Sized JavaScript” videocast.
  *
- * You can watch “Byte-Sized JavaScript” at: https://bit.ly/bytesized
+ * You can watch “Byte-Sized JavaScript” at: https://bytesized.tv/
  *
  * MIT Licensed — See LICENSE.md
  *
