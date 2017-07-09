@@ -5,7 +5,7 @@
  *     .-----.
  *     | | | |       Byte-Sized JavaScript
  *     \  °  /          Module Generator
- *   ___-___-___   https://bit.ly/bytesized
+ *   ___-___-___      https://bytesized.tv/
  *  ()_   .   _()
  *  /  /\ : /\  \
  * (___)| . |(___)
